@@ -1,0 +1,9 @@
+PLAYLIST_URL = (
+    "https://open.spotify.com/album/2Jpgkfvp3cQIK9B0sWxatk?si=NUu6l197Tv6VAa_Debwsxw"
+    # insert your own Spotify playlist URL here
+)
+
+BIT_RATE = "128k"
+FORMAT = "mp3"
+
+OUTPUT_DIR = "output/"
