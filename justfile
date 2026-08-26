@@ -1,5 +1,5 @@
 download:
-   uv run python3 script/download.py
+   uv run python3 -m script.download
 
 rename:
-    uv run python3 script/add_metadata.py
+    uv run python3 -m script.add_metadata

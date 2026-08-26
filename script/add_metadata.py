@@ -1,7 +1,12 @@
 import os
+import sys
 from pathlib import Path
 from mutagen.mp3 import MP3
 from mutagen.easyid3 import EasyID3
+
+# Allow running this file directly without requiring manual PYTHONPATH tweaks.
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from constant import OUTPUT_DIR
 

@@ -1,5 +1,11 @@
 import subprocess
+import sys
 from pathlib import Path
+
+# Allow running this file directly without requiring manual PYTHONPATH tweaks.
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 from constant import OUTPUT_DIR, PLAYLIST_URL, FORMAT, BIT_RATE
 
 
