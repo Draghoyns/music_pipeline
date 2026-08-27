@@ -7,3 +7,8 @@ BIT_RATE = "128k"
 FORMAT = "mp3"
 
 OUTPUT_DIR = "output/"
+
+AUDIO_PROVIDERS = ["youtube", "youtube-music"]
+MAX_METADATA_RETRIES = "5"
+DOWNLOAD_THREADS = "4"
+YT_DLP_ARGS = "--extractor-args youtube:player_client=android"
