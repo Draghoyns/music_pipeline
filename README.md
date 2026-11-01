@@ -32,6 +32,8 @@ Run `just rename`. It cleans all the metadata and only sets `artist` and `title`
 
 Verify that everything went well. Chnage anything manually if it semes relevant to you !
 
+Then move the tracks into your backup playlist (e.g. in Spotify, select all the tracks of the source playlist, then right-click > Add to playlist).
+
 And that's it :star:
 
 
